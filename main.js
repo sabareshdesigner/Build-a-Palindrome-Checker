@@ -28,7 +28,7 @@ const checkPalindrome = (input) => {
   tagP.innerHTML = resultMsg;
   result.appendChild(tagP);
 
-  result.classList.remove("hidden");
+  result.attributes.removeNamedItem("hidden");
 };
 
 // To click the check btn import to p tag
